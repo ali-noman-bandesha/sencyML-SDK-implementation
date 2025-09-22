@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity(), SMKitUIWorkoutListener {
 
     private val tag = this::class.java.simpleName
 
-    private val apiPublicKey = BuildConfig.sdk_auth_key
+    private val apiPublicKey ="public_live_Nv3pVZhhAlLIUYZvCv"
 
     private val configurationResult = object : SMKitUIConfigurationListener {
         override fun onFailure() {
