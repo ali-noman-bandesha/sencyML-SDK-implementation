@@ -13,11 +13,11 @@ if (localPropertiesFile.exists()) {
 }
 
 android {
-    namespace 'com.example.smkituidemoapp'
+    namespace 'com.bandesha.sencyfitness'
     compileSdk 36
 
     defaultConfig {
-        applicationId "com.example.smkituidemoapp"
+        applicationId "com.bandesha.sencyfitness"
         minSdk 29
         targetSdk 36
         versionCode 1
@@ -43,7 +43,6 @@ android {
         jvmTarget = '17'
     }
 
-    // ⭐ ADD THIS KAPT CONFIGURATION ⭐
     kapt {
         javacOptions {
             option("--add-exports", "jdk.compiler/com.sun.tools.javac.main=ALL-UNNAMED")

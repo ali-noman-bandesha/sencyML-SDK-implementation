@@ -1,4 +1,4 @@
-package com.example.smkituidemoapp.viewModels
+package com.bandesha.sencyfitness.viewModels
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

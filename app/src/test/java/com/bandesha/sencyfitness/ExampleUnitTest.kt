@@ -1,4 +1,4 @@
-package com.example.smkituidemoapp
+package com.bandesha.sencyfitness
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.example.smkituidemoapp
+package com.bandesha.sencyfitness
 
 import android.Manifest
 import android.content.Context
@@ -11,8 +11,8 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import com.example.smkituidemoapp.databinding.MainActivityBinding
-import com.example.smkituidemoapp.viewModels.MainViewModel
+import com.bandesha.sencyfitness.databinding.MainActivityBinding
+import com.bandesha.sencyfitness.viewModels.MainViewModel
 import com.sency.smkitui.SMKitUI
 import com.sency.smkitui.listener.SMKitUIConfigurationListener
 import com.sency.smkitui.listener.SMKitUIWorkoutListener
@@ -21,9 +21,6 @@ import com.sency.smkitui.model.Gender
 import com.sency.smkitui.model.SMWorkout
 import com.sency.smkitui.model.UserData
 import com.sency.smkitui.model.WorkoutSummaryData
-import com.sency.smkitui.model.workoutConfig.CounterPreference
-import com.sency.smkitui.model.workoutConfig.EndExercisePreference
-import com.sency.smkitui.presentation.fragment.PauseDialogTypes
 import com.sency.smkitui.model.smkitui.Fitness
 
 class MainActivity : AppCompatActivity(), SMKitUIWorkoutListener {
